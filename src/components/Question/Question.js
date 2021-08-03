@@ -40,7 +40,7 @@ function Question() {
             className={
               quiz[currentQuestion].correct_answer !== option
                 ? clicked && option === selectedOption && styles.incorrect
-                : clicked && option === selectedOption && styles.correct
+                : clicked && styles.correct
             }
           >
             {option}
